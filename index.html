@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="es" id="pagina">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Moda ECCI</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="Css/Style.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg sticky-top" id="navegacion">
+            <div class="container">
+                <a class="navbar-brand" href="#inicio">Moda ECCI</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#inicio" data-es="Inicio" data-en="Home">Inicio</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#experiencia" data-es="Experiencia"
+                                data-en="Experience">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#galeria" data-es="Galería"
+                                data-en="Gallery">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#glosario" data-es="Glosario"
+                                data-en="Glossary">Glosario</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sostenibilidad" data-es="Sostenibilidad"
+                                data-en="Sustainability">Sostenibilidad</a></li>
+                    </ul>
+                    <button class="btn ms-3" id="btn-traducir" onclick="toggleLang()">EN</button>
+                </div>
+            </div>
+        </nav>
+
+        <section id="inicio">
+            <div class="container text-center">
+                <h1 data-es="Moda ECCI" data-en="Moda ECCI">Moda ECCI</h1>
+                <p data-es="Evento académico de diseño, creatividad e innovación"
+                    data-en="Academic event of design, creativity and innovation">
+                    Evento académico de diseño, creatividad e innovación
+                </p>
+                <a href="#experiencia" class="btn" data-es="Ver mi experiencia" data-en="See my experience">Ver mi
+                    experiencia</a>
+            </div>
+        </section>
+
+        <section id="sobre-el-evento" class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <h2 data-es="Sobre el Evento" data-en="About the Event">Introduccion al Evento</h2>
+                    <p data-es="Moda ECCI es un evento académico enfocado en el diseño, la creatividad y la innovación, donde se exploran conceptos fundamentales como la teoría del color, la semiología visual y el uso de Pantone. A través de este sitio web se presenta mi experiencia durante el evento, los conocimientos adquiridos y la relación entre el diseño visual, la experiencia de usuario y el desarrollo de software."
+                        data-en="Moda ECCI is an academic event focused on design, creativity and innovation, where fundamental concepts such as color theory, visual semiology and the use of Pantone are explored. Through this website I present my experience during the event, the knowledge acquired and the relationship between visual design, user experience and software development.">
+                        Moda ECCI es un evento académico enfocado en el diseño, la creatividad y la innovación, donde se
+                        exploran conceptos fundamentales como la teoría del color, la semiología visual y el uso de Pantone.
+                        A través de este sitio web se presenta mi experiencia durante el evento, los conocimientos
+                        adquiridos y la relación entre el diseño visual, la experiencia de usuario y el desarrollo de
+                        software.
+                    </p>
+                    <h5 data-es="Objetivo del sitio" data-en="Site Objective">Objetivo del sitio</h5>
+                    <p data-es="Documentar y compartir los aprendizajes obtenidos en Moda ECCI, relacionando los conceptos del diseño de moda con las competencias del desarrollo FrontEnd y la experiencia de usuario."
+                        data-en="To document and share the learnings obtained at Moda ECCI, relating fashion design concepts with FrontEnd development and user experience competencies.">
+                        Documentar y compartir los aprendizajes obtenidos en Moda ECCI, relacionando los conceptos del
+                        diseño de moda con las competencias del desarrollo FrontEnd y la experiencia de usuario.
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <div id="tarjeta-sara-viloria">
+                        <div id="avatar-sara-viloria">SV</div>
+                        <h5>Sara Viloria</h5>
+                        <p id="rol-conferencista" data-es="Conferencista principal" data-en="Keynote Speaker">Conferencista
+                            principal</p>
+                        <blockquote>
+                            <p data-es='"El color no es solo decoración; es un lenguaje codificado que impacta de forma directa la psicología del usuario y define la arquitectura de la interfaz."'
+                                data-en='"Color is not just decoration; it is a coded language that directly impacts user psychology and defines the architecture of the interface."'>
+                                "El color no es solo decoración; es un lenguaje codificado que impacta de forma directa la
+                                psicología del usuario y define la arquitectura de la interfaz."
+                            </p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <div class="container">
+                <h2 data-es="Mi Experiencia en Moda ECCI" data-en="My Experience at Moda ECCI">Mi Experiencia en Moda ECCI
+                </h2>
+
+                <div class="accordion mt-4" id="acordeon-experiencia">
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#moda-y-frontend">
+                                <span data-es="Moda y FrontEnd: más en común de lo que parece"
+                                    data-en="Fashion and FrontEnd: more in common than it seems">
+                                    Moda y FrontEnd: más en común de lo que parece
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="moda-y-frontend" class="accordion-collapse collapse show"
+                            data-bs-parent="#acordeon-experiencia">
+                            <div class="accordion-body">
+                                <p data-es="La verdad es que ir a este evento de moda me cambió por completo la forma de ver las cosas, porque me di cuenta de que el diseño de modas y el desarrollo FrontEnd tienen muchísimo en común. Al principio uno piensa que son mundos totalmente distintos, pero escuchando los temas de la conferencia de Sara Viloria sobre la teoría del color, la semiología y el uso de Pantone, todo me hizo clic con lo que hago al maquetar una interfaz."
+                                    data-en="The truth is that going to this fashion event completely changed the way I see things, because I realized that fashion design and FrontEnd development have a lot in common. At first you think they are totally different worlds, but listening to Sara Viloria's conference on color theory, semiology and the use of Pantone, everything clicked with what I do when laying out an interface.">
+                                    La verdad es que ir a este evento de moda me cambió por completo la forma de ver las
+                                    cosas, porque me di cuenta de que el diseño de modas y el desarrollo FrontEnd tienen
+                                    muchísimo en común. Al principio uno piensa que son mundos totalmente distintos, pero
+                                    escuchando los temas de la conferencia de Sara Viloria sobre la teoría del color, la
+                                    semiología y el uso de Pantone, todo me hizo clic con lo que hago al maquetar una
+                                    interfaz.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#color-identidad-marca">
+                                <span data-es="El color como identidad de marca digital"
+                                    data-en="Color as digital brand identity">
+                                    El color como identidad de marca digital
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="color-identidad-marca" class="accordion-collapse collapse"
+                            data-bs-parent="#acordeon-experiencia">
+                            <div class="accordion-body">
+                                <p data-es="En la moda, cada color y cada combinación se eligen estratégicamente para transmitir una emoción o comunicar la identidad de una marca, y eso es exactamente lo que hacemos en el FrontEnd al construir la identidad gráfica de un sitio web para que el usuario se sienta en el lugar correcto."
+                                    data-en="In fashion, each color and combination is strategically chosen to convey an emotion or communicate a brand's identity, and that is exactly what we do in FrontEnd when building the graphic identity of a website so the user feels in the right place.">
+                                    En la moda, cada color y cada combinación se eligen estratégicamente para transmitir una
+                                    emoción o comunicar la identidad de una marca, y eso es exactamente lo que hacemos en el
+                                    FrontEnd al construir la identidad gráfica de un sitio web para que el usuario se sienta
+                                    en el lugar correcto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#ux-en-la-moda">
+                                <span data-es="UX/UI también existe en la moda" data-en="UX/UI also exists in fashion">
+                                    UX/UI también existe en la moda
+                                </span>
+                            </button>
+                        </h2>
+                        <div id="ux-en-la-moda" class="accordion-collapse collapse" data-bs-parent="#acordeon-experiencia">
+                            <div class="accordion-body">
+                                <p data-es="Además, ver cómo estructuran el diseño visual aplicado a productos y experiencias me dejó claro que ellos también hacen su propio diseño de experiencia e interacción de usuario (UX/UI); ellos piensan en cómo se va a sentir la persona al usar la prenda, tal como nosotros pensamos en la comodidad del usuario al navegar por una aplicación. Al final, me llevé la experiencia de que programar el FrontEnd no es solo tirar líneas de código, sino saber usar los principios visuales y la comunicación para que la interacción de los usuarios con la tecnología sea intuitiva, atractiva y tenga sentido."
+                                    data-en="Furthermore, seeing how they structure visual design applied to products and experiences made it clear to me that they also do their own user experience and interaction design (UX/UI); they think about how the person will feel using the garment, just as we think about user comfort when navigating an application. In the end, I took away the experience that programming FrontEnd is not just throwing lines of code, but knowing how to use visual principles and communication so that users' interaction with technology is intuitive, attractive and makes sense.">
+                                    Además, ver cómo estructuran el diseño visual aplicado a productos y experiencias me
+                                    dejó claro que ellos también hacen su propio diseño de experiencia e interacción de
+                                    usuario (UX/UI); ellos piensan en cómo se va a sentir la persona al usar la prenda, tal
+                                    como nosotros pensamos en la comodidad del usuario al navegar por una aplicación. Al
+                                    final, me llevé la experiencia de que programar el FrontEnd no es solo tirar líneas de
+                                    código, sino saber usar los principios visuales y la comunicación para que la
+                                    interacción de los usuarios con la tecnología sea intuitiva, atractiva y tenga sentido.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+                <h2 data-es="Galería del Evento" data-en="Event Gallery">Galería</h2>
+                <div id="carrusel-fotos-evento" class="carousel slide mt-4" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="0"
+                            class="active"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="5"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="6"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="7"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="8"></button>
+                        <button type="button" data-bs-target="#carrusel-fotos-evento" data-bs-slide-to="9"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Img/Color.jpg" class="d-block w-100" alt="Foto del evento 1" id="foto1" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 1" data-en="Photo 1 description">inicio de la intervención de
+                                    la ponente experta Sara Viloria en Moda ECCI, abordando el impacto del color en
+                                    proyectos de diseño y su relevancia metodológica en la industria actual.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda2.jpg" class="d-block w-100" alt="Foto del evento 2" id="foto2" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 2" data-en="Photo 2 description">Análisis conceptual sobre cómo
+                                    el color se materializa en prendas de vestir, objetos de diseño y espacios
+                                    tridimensionales, complementado con la premisa del artista Paul Klee: "El color es el
+                                    lugar donde nuestro cerebro y el universo se encuentran".</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda3.jpg" class="d-block w-100" alt="Foto del evento 3" id="foto3" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 3" data-en="Photo 3 description">Revisión del perfil académico
+                                    y profesional de la ponente como Licenciada en Artes Visuales y Colorista Certificada
+                                    por el Pantone Institute, destacando su experiencia internacional y sus aportes
+                                    bibliográficos a la investigación del color.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/MODA4.jpg" class="d-block w-100" alt="Foto del evento 4" id="foto4" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 4" data-en="Photo 4 description">Estudio de la teoría del color
+                                    desde perspectivas lingüísticas y científicas, analizando el contraste entre la
+                                    definición física del fenómeno lumínico y la complejidad de explicar su significado
+                                    intrínseco más allá de la sensación percibida.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda5.jpg" class="d-block w-100" alt="Foto del evento 5" id="foto5" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 5" data-en="Photo 5 description">Exposición sobre la necesidad
+                                    de objetivar lo subjetivo a través del estudio cromático, demostrando cómo su correcta
+                                    administración impacta positivamente el desarrollo de productos y servicios en las
+                                    industrias textil, gráfica, de diseño y publicitaria.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda6.jpg" class="d-block w-100" alt="Foto del evento 6" id="foto6" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 6" data-en="Photo 6 description">Análisis comparativo del uso
+                                    del color a lo largo de la historia del arte, examinando cómo las armonías cromáticas y
+                                    las propiedades técnicas de la rueda de color estructuran la composición visual tanto en
+                                    el Renacimiento clásico como en las vanguardias expresionistas.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda7.jpg" class="d-block w-100" alt="Foto del evento 7" id="foto7" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 7" data-en="Photo 7 description">Estudio técnico de las
+                                    armonías de color fundamentado en la geometría del círculo cromático, detallando la
+                                    correcta aplicación de esquemas complementarios, tríadas, análogos y composiciones
+                                    tetrádicas para el desarrollo de proyectos visuales equilibrados.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda8.jpg" class="d-block w-100" alt="Foto del evento 8" id="foto8" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 8" data-en="Photo 8 description">Explicación técnica sobre la
+                                    flexibilidad y el funcionamiento sistémico de las combinaciones cromáticas, demostrando
+                                    que cualquier estructura geométrica aplicada sobre el círculo —desde lo monocromático
+                                    hasta lo tetrádico— genera una respuesta visual armónica y funcional para el diseño.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda9.jpg" class="d-block w-100" alt="Foto del evento 9" id="foto9" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 9" data-en="Photo 9 description">Análisis del impacto
+                                    neuro-emocional y psicológico de los estímulos cromáticos en el ser humano, examinando
+                                    cómo los diferentes matices influyen de manera directa en las sensaciones, conductas,
+                                    percepciones y experiencias de los usuarios.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Img/moda10.jpg" class="d-block w-100" alt="Foto del evento 10" id="foto10" />
+                            <div class="carousel-caption">
+                                <p data-es="Descripción foto 10" data-en="Photo 10 description">Discusión crítica planteada
+                                    por la ponente sobre las simplificaciones comerciales en el marketing, cuestionando los
+                                    esquemas rígidos que asocian marcas globales con emociones únicas y promoviendo un
+                                    análisis más profundo del color en el branding.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-fotos-evento"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrusel-fotos-evento"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="glosario">
+            <div class="container">
+                <h2 data-es="Glosario Técnico" data-en="Technical Glossary">Glosario Técnico</h2>
+                <p data-es="Términos aprendidos durante el evento Moda ECCI"
+                    data-en="Terms learned during the Moda ECCI event">
+                    Términos aprendidos durante el evento Moda ECCI
+                </p>
+                <div class="table-responsive mt-4">
+                    <table class="table table-bordered" id="tabla-glosario">
+                        <thead>
+                            <tr>
+                                <th data-es="Inglés" data-en="English">Inglés</th>
+                                <th data-es="Español" data-en="Spanish">Español</th>
+                                <th data-es="Definición" data-en="Definition">Definición</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Color Theory</td>
+                                <td data-es="Teoría del color" data-en="Color Theory">Teoría del color</td>
+                                <td data-es="Estudio de cómo los colores generan percepción visual y emocional en el usuario."
+                                    data-en="Study of how colors generate visual and emotional perception in the user.">
+                                    Estudio de cómo los colores generan percepción visual y emocional en el usuario.</td>
+                            </tr>
+                            <tr>
+                                <td>Pantone</td>
+                                <td data-es="Pantone" data-en="Pantone">Pantone</td>
+                                <td data-es="Sistema estandarizado de identificación y clasificación de colores usado en diseño y moda."
+                                    data-en="Standardized system for identifying and classifying colors used in design and fashion.">
+                                    Sistema estandarizado de identificación y clasificación de colores usado en diseño y
+                                    moda.</td>
+                            </tr>
+                            <tr>
+                                <td>Semiology</td>
+                                <td data-es="Semiología" data-en="Semiology">Semiología</td>
+                                <td data-es="Ciencia que estudia los signos y su significado dentro de un contexto cultural o visual."
+                                    data-en="Science that studies signs and their meaning within a cultural or visual context.">
+                                    Ciencia que estudia los signos y su significado dentro de un contexto cultural o visual.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>User Experience (UX)</td>
+                                <td data-es="Experiencia de usuario" data-en="User Experience">Experiencia de usuario</td>
+                                <td data-es="Conjunto de factores que determinan cómo se siente un usuario al interactuar con un producto digital."
+                                    data-en="Set of factors that determine how a user feels when interacting with a digital product.">
+                                    Conjunto de factores que determinan cómo se siente un usuario al interactuar con un
+                                    producto digital.</td>
+                            </tr>
+                            <tr>
+                                <td>User Interface (UI)</td>
+                                <td data-es="Interfaz de usuario" data-en="User Interface">Interfaz de usuario</td>
+                                <td data-es="Elementos visuales e interactivos con los que el usuario opera en una aplicación o sitio web."
+                                    data-en="Visual and interactive elements through which the user operates in an application or website.">
+                                    Elementos visuales e interactivos con los que el usuario opera en una aplicación o sitio
+                                    web.</td>
+                            </tr>
+                            <tr>
+                                <td>Typography</td>
+                                <td data-es="Tipografía" data-en="Typography">Tipografía</td>
+                                <td data-es="Arte y técnica de organizar texto de forma visualmente atractiva y legible en un diseño."
+                                    data-en="Art and technique of arranging text in a visually attractive and readable way in a design.">
+                                    Arte y técnica de organizar texto de forma visualmente atractiva y legible en un diseño.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Responsive Design</td>
+                                <td data-es="Diseño responsivo" data-en="Responsive Design">Diseño responsivo</td>
+                                <td data-es="Técnica que adapta la presentación visual de un sitio web a diferentes tamaños de pantalla."
+                                    data-en="Technique that adapts a website's visual presentation to different screen sizes.">
+                                    Técnica que adapta la presentación visual de un sitio web a diferentes tamaños de
+                                    pantalla.</td>
+                            </tr>
+                            <tr>
+                                <td>Branding</td>
+                                <td data-es="Identidad de marca" data-en="Brand Identity">Identidad de marca</td>
+                                <td data-es="Conjunto de elementos visuales y comunicativos que representan y distinguen a una marca."
+                                    data-en="Set of visual and communicative elements that represent and distinguish a brand.">
+                                    Conjunto de elementos visuales y comunicativos que representan y distinguen a una marca.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Color Palette</td>
+                                <td data-es="Paleta de colores" data-en="Color Palette">Paleta de colores</td>
+                                <td data-es="Selección de colores combinados armónicamente que definen la identidad visual de un proyecto."
+                                    data-en="Selection of harmoniously combined colors that define the visual identity of a project.">
+                                    Selección de colores combinados armónicamente que definen la identidad visual de un
+                                    proyecto.</td>
+                            </tr>
+                            <tr>
+                                <td>Contrast</td>
+                                <td data-es="Contraste" data-en="Contrast">Contraste</td>
+                                <td data-es="Diferencia visual entre elementos que permite destacarlos y mejorar la legibilidad."
+                                    data-en="Visual difference between elements that makes them stand out and improves readability.">
+                                    Diferencia visual entre elementos que permite destacarlos y mejorar la legibilidad.</td>
+                            </tr>
+                            <tr>
+                                <td>Layout</td>
+                                <td data-es="Maquetación" data-en="Layout">Maquetación</td>
+                                <td data-es="Distribución y organización de los elementos visuales en una página o interfaz."
+                                    data-en="Distribution and organization of visual elements on a page or interface.">
+                                    Distribución y organización de los elementos visuales en una página o interfaz.</td>
+                            </tr>
+                            <tr>
+                                <td>Visual Hierarchy</td>
+                                <td data-es="Jerarquía visual" data-en="Visual Hierarchy">Jerarquía visual</td>
+                                <td data-es="Organización de elementos para guiar la atención del usuario según su importancia."
+                                    data-en="Organization of elements to guide user attention according to their importance.">
+                                    Organización de elementos para guiar la atención del usuario según su importancia.</td>
+                            </tr>
+                            <tr>
+                                <td>Grid System</td>
+                                <td data-es="Sistema de cuadrícula" data-en="Grid System">Sistema de cuadrícula</td>
+                                <td data-es="Estructura de columnas y filas que organiza el contenido visual de forma ordenada."
+                                    data-en="Structure of columns and rows that organizes visual content in an orderly manner.">
+                                    Estructura de columnas y filas que organiza el contenido visual de forma ordenada.</td>
+                            </tr>
+                            <tr>
+                                <td>Accessibility</td>
+                                <td data-es="Accesibilidad" data-en="Accessibility">Accesibilidad</td>
+                                <td data-es="Diseño inclusivo que permite a personas con diferentes capacidades usar un producto digital."
+                                    data-en="Inclusive design that allows people with different abilities to use a digital product.">
+                                    Diseño inclusivo que permite a personas con diferentes capacidades usar un producto
+                                    digital.</td>
+                            </tr>
+                            <tr>
+                                <td>Mockup</td>
+                                <td data-es="Maqueta visual" data-en="Visual Mockup">Maqueta visual</td>
+                                <td data-es="Representación visual estática de cómo lucirá un diseño o interfaz antes de ser desarrollado."
+                                    data-en="Static visual representation of how a design or interface will look before being developed.">
+                                    Representación visual estática de cómo lucirá un diseño o interfaz antes de ser
+                                    desarrollado.</td>
+                            </tr>
+                            <tr>
+                                <td>Aesthetic</td>
+                                <td data-es="Estética" data-en="Aesthetic">Estética</td>
+                                <td data-es="Conjunto de características visuales que definen la apariencia y estilo de un diseño."
+                                    data-en="Set of visual characteristics that define the appearance and style of a design.">
+                                    Conjunto de características visuales que definen la apariencia y estilo de un diseño.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Texture</td>
+                                <td data-es="Textura" data-en="Texture">Textura</td>
+                                <td data-es="Cualidad visual o táctil de una superficie que aporta profundidad y carácter a un diseño."
+                                    data-en="Visual or tactile quality of a surface that adds depth and character to a design.">
+                                    Cualidad visual o táctil de una superficie que aporta profundidad y carácter a un
+                                    diseño.</td>
+                            </tr>
+                            <tr>
+                                <td>Composition</td>
+                                <td data-es="Composición" data-en="Composition">Composición</td>
+                                <td data-es="Forma en que se organizan y relacionan los elementos dentro de un espacio visual."
+                                    data-en="The way elements are organized and related within a visual space.">Forma en que
+                                    se organizan y relacionan los elementos dentro de un espacio visual.</td>
+                            </tr>
+                            <tr>
+                                <td>Chromatic Scale</td>
+                                <td data-es="Escala cromática" data-en="Chromatic Scale">Escala cromática</td>
+                                <td data-es="Gradación de colores ordenados por tono, saturación o luminosidad dentro de una paleta."
+                                    data-en="Gradation of colors ordered by hue, saturation or brightness within a palette.">
+                                    Gradación de colores ordenados por tono, saturación o luminosidad dentro de una paleta.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Prototype</td>
+                                <td data-es="Prototipo" data-en="Prototype">Prototipo</td>
+                                <td data-es="Versión preliminar e interactiva de un diseño para probar funcionalidad y usabilidad."
+                                    data-en="Preliminary interactive version of a design to test functionality and usability.">
+                                    Versión preliminar e interactiva de un diseño para probar funcionalidad y usabilidad.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="sostenibilidad">
+            <div class="container">
+                <h2 data-es="Tecnología, Sostenibilidad y Economía Circular"
+                    data-en="Technology, Sustainability and Circular Economy">Tecnología, Sostenibilidad y Economía Circular
+                </h2>
+                <p data-es="Reflexión de un aprendiz SENA sobre el impacto del diseño responsable"
+                    data-en="Reflection of a SENA apprentice on the impact of responsible design">
+                    Reflexión de un aprendiz SENA sobre el impacto del diseño responsable
+                </p>
+                <div class="row g-4 mt-2">
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100" id="reduccion-residuos-digitales">
+                            <div class="card-body">
+                                <div class="icono-reflexion">♻️</div>
+                                <h5 class="card-title" data-es="Reducción de residuos digitales"
+                                    data-en="Digital Waste Reduction">Reducción de residuos digitales</h5>
+                                <p class="card-text"
+                                    data-es="Como desarrolladores, tenemos la responsabilidad de construir software eficiente. Un código limpio y optimizado consume menos recursos del servidor y reduce el impacto energético de nuestras aplicaciones."
+                                    data-en="As developers, we have the responsibility to build efficient software. Clean, optimized code consumes fewer server resources and reduces the energy impact of our applications.">
+                                    Como desarrolladores, tenemos la responsabilidad de construir software eficiente. Un
+                                    código limpio y optimizado consume menos recursos del servidor y reduce el impacto
+                                    energético de nuestras aplicaciones.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100" id="reutilizacion-componentes-frontend">
+                            <div class="card-body">
+                                <div class="icono-reflexion">🔄</div>
+                                <h5 class="card-title" data-es="Reutilización de componentes" data-en="Component Reuse">
+                                    Reutilización de componentes</h5>
+                                <p class="card-text"
+                                    data-es="Al igual que la economía circular reutiliza materiales, en el FrontEnd reutilizamos componentes, estilos y patrones de diseño. Esto reduce el trabajo redundante y hace los proyectos más sostenibles a largo plazo."
+                                    data-en="Just as the circular economy reuses materials, in FrontEnd we reuse components, styles and design patterns. This reduces redundant work and makes projects more sustainable in the long run.">
+                                    Al igual que la economía circular reutiliza materiales, en el FrontEnd reutilizamos
+                                    componentes, estilos y patrones de diseño. Esto reduce el trabajo redundante y hace los
+                                    proyectos más sostenibles a largo plazo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100" id="optimizacion-recursos-web">
+                            <div class="card-body">
+                                <div class="icono-reflexion">⚡</div>
+                                <h5 class="card-title" data-es="Optimización de recursos" data-en="Resource Optimization">
+                                    Optimización de recursos</h5>
+                                <p class="card-text"
+                                    data-es="Optimizar imágenes, reducir peticiones HTTP y usar carga diferida son prácticas que no solo mejoran el rendimiento del sitio, sino que contribuyen directamente a un menor consumo energético."
+                                    data-en="Optimizing images, reducing HTTP requests and using lazy loading are practices that not only improve site performance, but directly contribute to lower energy consumption.">
+                                    Optimizar imágenes, reducir peticiones HTTP y usar carga diferida son prácticas que no
+                                    solo mejoran el rendimiento del sitio, sino que contribuyen directamente a un menor
+                                    consumo energético.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100" id="produccion-sostenible-software">
+                            <div class="card-body">
+                                <div class="icono-reflexion">🌿</div>
+                                <h5 class="card-title" data-es="Producción sostenible de software"
+                                    data-en="Sustainable Software Production">Producción sostenible de software</h5>
+                                <p class="card-text"
+                                    data-es="La moda sostenible nos enseña a producir solo lo necesario con el menor impacto posible. En software, esto se traduce en documentar bien, planear antes de codificar y no generar deuda técnica innecesaria."
+                                    data-en="Sustainable fashion teaches us to produce only what is necessary with the least possible impact. In software, this means documenting well, planning before coding and not generating unnecessary technical debt.">
+                                    La moda sostenible nos enseña a producir solo lo necesario con el menor impacto posible.
+                                    En software, esto se traduce en documentar bien, planear antes de codificar y no generar
+                                    deuda técnica innecesaria.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100" id="impacto-ambiental-digitalizacion">
+                            <div class="card-body">
+                                <div class="icono-reflexion">🌍</div>
+                                <h5 class="card-title" data-es="Impacto ambiental positivo"
+                                    data-en="Positive Environmental Impact">Impacto ambiental positivo</h5>
+                                <p class="card-text"
+                                    data-es="La digitalización bien aplicada puede reemplazar procesos físicos contaminantes. Un buen sistema de gestión digital reduce el uso de papel, traslados y recursos físicos en las empresas."
+                                    data-en="Well-applied digitization can replace polluting physical processes. A good digital management system reduces the use of paper, travel and physical resources in companies.">
+                                    La digitalización bien aplicada puede reemplazar procesos físicos contaminantes. Un buen
+                                    sistema de gestión digital reduce el uso de papel, traslados y recursos físicos en las
+                                    empresas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card h-100" id="responsabilidad-aprendiz-sena">
+                            <div class="card-body">
+                                <div class="icono-reflexion">🤝</div>
+                                <h5 class="card-title" data-es="Responsabilidad como aprendiz SENA"
+                                    data-en="Responsibility as a SENA Apprentice">Responsabilidad como aprendiz SENA</h5>
+                                <p class="card-text"
+                                    data-es="Eventos como Moda ECCI me recuerdan que mi formación va más allá del código. Soy un futuro profesional con responsabilidad social, y cada proyecto que construya debe pensar en las personas y en el planeta."
+                                    data-en="Events like Moda ECCI remind me that my training goes beyond code. I am a future professional with social responsibility, and every project I build must think about people and the planet.">
+                                    Eventos como Moda ECCI me recuerdan que mi formación va más allá del código. Soy un
+                                    futuro profesional con responsabilidad social, y cada proyecto que construya debe pensar
+                                    en las personas y en el planeta.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer id="pie-de-pagina">
+            <p id="creditos-footer" class="text-center"
+                data-es="© 2025 Moda ECCI · Aprendiz SENA · Centro de Manufactura en Textil y Cuero"
+                data-en="© 2025 Moda ECCI · SENA Apprentice · Manufacturing Center in Textiles and Leather">
+                © 2026 Moda ECCI · Jhon Figueroa · ADSO CMTC
+            </p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="JS/moda.js"></script>
+    </body>
+
+</html>
